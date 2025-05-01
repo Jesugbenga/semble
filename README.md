@@ -115,10 +115,9 @@ cd ../client && npm install
 
 ## 📬 Contact
 For implementation partnerships:  
-[your.email@example.com](mailto:your.email@example.com)  
+[jesugben@ulberta.ca](mailto:jesugben@ualberta.ca)  
 
-**Project Lead**: [Your Name]  
-**Advisors**: [Organization Names]  
+**Project Lead**: Jesugbenga Omoniwa 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 ```
