@@ -3,109 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semble</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://unpkg.com/@google/generative-ai/dist/generative-ai.js"></script>
+    <title>My Azure Web App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
-        <h1>Semble</h1>
-        <p>Connecting communities with essential resources</p>
+    <header>
+        <h1>Welcome to My Azure Web App!</h1>
     </header>
-
-    <nav class="tabs">
-        <button class="tab-button active" data-tab="resource-finder">Resource Finder</button>
-        <button class="tab-button" data-tab="job-coach">Job Coach</button>
-    </nav>
-
-    <main class="main-content">
-        <!-- Resource Finder Section -->
-        <section id="resource-finder" class="tab-content active">
-            <div class="search-container">
-                <input type="text" id="resource-search" class="search-input" placeholder="Describe what kind of help or support you're looking for (e.g. housing, jobs, legal aid)...">
-                <div class="filter-options">
-                    <select id="category-filter">
-                        <option value="all">All Categories</option>
-                        <option value="food">Food</option>
-                        <option value="shelter">Shelter</option>
-                        <option value="health">Health</option>
-                        <option value="employment">Employment</option>
-                        <option value="legal">Legal</option>
-                    </select>
-                    <button id="location-toggle">Near Me</button>
-                </div>
-                <button id="search-button" class="primary-button">Search Resources</button>
-            </div>
-
-            <div id="search-results" class="results-container">
-                <!-- Results will be populated by JavaScript -->
-                <div class="no-results">
-                    <p>Enter a search term to find community resources</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Job Coach Section -->
-        <section id="job-coach" class="tab-content">
-            <div class="job-tabs">
-                <button class="job-tab-button active" data-job-tab="resume-analysis">Resume Help</button>
-                <button class="job-tab-button" data-job-tab="interview-sim">Interview Practice</button>
-                <button class="job-tab-button" data-job-tab="cultural-tips">Cultural Tips</button>
-            </div>
-
-            <div id="resume-analysis" class="job-tab-content active">
-                <h2>Resume/CV Analysis</h2>
-                <textarea id="resume-input" placeholder="Paste your resume or CV content here..."></textarea>
-                <button id="analyze-resume" class="primary-button">Analyze Resume</button>
-                <div id="resume-feedback" class="feedback-container">
-                    <h3>Feedback:</h3>
-                    <ul id="resume-feedback-list"></ul>
-                </div>
-            </div>
-
-            <div id="interview-sim" class="job-tab-content">
-                <h2>Interview Simulation</h2>
-                <button id="start-interview" class="primary-button">Start Interview Simulation</button>
-                <div id="interview-question" class="question-container">
-                    <p>Click "Start" to begin your practice interview</p>
-                </div>
-                <textarea id="interview-answer" placeholder="Type your answer here..." disabled></textarea>
-                <button id="submit-answer" class="primary-button" disabled>Submit Answer</button>
-                <div id="interview-feedback" class="feedback-container">
-                    <h3>Feedback:</h3>
-                    <div id="interview-feedback-content"></div>
-                </div>
-            </div>
-
-            <div id="cultural-tips" class="job-tab-content">
-                <h2>Cultural Tips for Job Seekers</h2>
-                <div class="tips-container">
-                    <div class="tip-card">
-                        <h3>United States</h3>
-                        <ul>
-                            <li>Arrive 10-15 minutes early for interviews</li>
-                            <li>Maintain eye contact during conversations</li>
-                            <li>Use formal language until invited to be informal</li>
-                        </ul>
-                    </div>
-                    <div class="tip-card">
-                        <h3>Germany</h3>
-                        <ul>
-                            <li>Use formal titles (Herr/Frau) unless told otherwise</li>
-                            <li>Direct communication is valued</li>
-                            <li>Bring printed copies of your resume/CV</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>© 2025 Semble | For assistance, contact: help@semble.org</p>
+    
+    <div class="content">
+        <h2>Successfully Deployed on Azure App Service</h2>
+        <p>This website is now running on Microsoft Azure App Service Free tier.</p>
+        <p>You can modify this page and deploy your changes to see them live.</p>
+        
+        <h3>Next Steps:</h3>
+        <ul>
+            <li>Customize this page with your own content</li>
+            <li>Add more pages to your website</li>
+            <li>Explore Azure's other services</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>Deployed on Azure App Service • Free Tier • &copy; 2025</p>
     </footer>
-
-    <script src="resources.js"></script>
-    <script src="scripts.js"></script>
 </body>
 </html>
